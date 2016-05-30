@@ -1,0 +1,43 @@
+body {
+  width: absolute;
+  padding: 30px;
+  background-color: lightblue; }
+
+.search-bar input {
+  display: block;
+  width: 100%; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+.list-product {
+  background: white;
+  padding: 10px 40px;
+  margin: 10px 0px;
+  width: absolute;
+  border-radius: 25px;
+  border-style: solid;
+  border-width: 1px; }
+
+.product-body {
+  width: 100%; }
+
+.product-field {
+  hight: 100%;
+  width: 100%;
+  float: left;
+  padding: 10px;
+  margin: 10px 0px;
+  background: white; }
+
+.product-description, .product-image {
+  width: 100%;
+  align-content: center;
+  margin: auto; }
+
+.product-tag-brand, .product-tag-description-long, .product-tag-color, .product-tag-price {
+  float: left;
+  width: 200px; }
+
+/*# sourceMappingURL=style.css.map */

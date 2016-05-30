@@ -1,0 +1,36 @@
+<div class="product-body">
+	<div class="product-field">
+		<div class="product-description">{{product.data.description}}</div>
+	</div>
+
+	<div class="product-field">
+
+		<div class="product-image"><img src="https://s3-eu-west-1.amazonaws.com/media-count3r/medium/{{product.data.image}}"></div>
+	</div>
+
+	<div class="product-field">
+		<div class="product-tag-brand"><h4>Merk:</h4></div>
+		<br>
+		<div class="product-brand">{{product.data.brand}}</div>
+	</div>
+	
+	<div class="product-field">
+		<div class="product-tag-description-long"><h4>Beschrijving:</h4></div>
+		<br>
+		<div class="product-description-long">{{product.data.description_long}}</div>
+	</div>
+
+	<div class="product-field">
+		<div class="product-tag-color"><h4>Kleur:</h4></div>
+		<br>
+		<div class="product-color">{{product.data.colors.color.description}}</div>
+	</div>
+
+	<div class="product-field">
+		<div class="product-tag-price"><h4>Prijs:</h4></div>
+		<br>
+		<div class="product-price">{{product.data.price}}</div>
+	</div>
+
+</div>
+

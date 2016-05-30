@@ -1,0 +1,30 @@
+<div class="input-group search-bar">
+	<input type="text" ng-model="search" ng-change="fetch()" ng-model-options="{ debounce: 400 }" class="form-control" autofocus />
+
+</div>
+
+<div ng-if="!details">
+	Geen resultaten! Typ uw zoektermen hierboven.
+</div>
+
+
+<div ng-if="details">
+	<div ng-repeat="product in details.products">
+
+		<a ui-sref="product({productId:product.data.id})">
+			<div class="list-product">
+				<div class="list-product-image">
+					<img src="https://s3-eu-west-1.amazonaws.com/media-count3r/small/{{product.data.image}}" class="image-product">
+				</div>
+
+				<div class="list-product-description">
+					{{product.data.brand}} {{product.data.description}}
+				</div>
+
+			</div></a>
+
+		</div>
+	</div>
+
+
+
